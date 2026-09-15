@@ -3,14 +3,5 @@
     <application
         android:allowBackup="true"
         android:label="iOS 27 Liquid Glass"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-    </application>
+        android:theme="@android:style/Theme.Material.Light.NoActionBar" />
 </manifest>
