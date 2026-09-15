@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><resources></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <item drawable="glass_phone"/>
+ <item drawable="glass_contacts"/>
+ <item drawable="glass_messages"/>
+ <item drawable="glass_camera"/>
+ <item drawable="glass_gallery"/>
+ <item drawable="glass_clock"/>
+ <item drawable="glass_calendar"/>
+ <item drawable="glass_settings"/>
+ <item drawable="glass_files"/>
+ <item drawable="glass_notes"/>
+ <item drawable="glass_store"/>
+ <item drawable="glass_browser"/>
+</resources>
