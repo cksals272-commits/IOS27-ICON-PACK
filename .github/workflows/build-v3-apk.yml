@@ -2,8 +2,6 @@ name: Build V4 Android APK
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
   workflow_dispatch:
 permissions:
   contents: read
@@ -26,5 +24,5 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: Fold8-iOS27-LiquidGlass-V4
-          path: dist/Fold8-iOS27-LiquidGlass-V3.apk
+          path: dist/Fold8-iOS27-LiquidGlass-V4.apk
           if-no-files-found: error
