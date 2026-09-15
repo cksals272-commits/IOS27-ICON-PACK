@@ -1,0 +1,2 @@
+Trigger GitHub Actions for V3 liquid-glass icon pack build.
+Version: 3.0-liquid-glass
