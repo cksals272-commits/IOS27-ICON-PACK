@@ -1,1 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><resources></resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fallback styling for apps without a dedicated icon -->
+    <iconback img1="icon_pack"/>
+    <iconupon img1="icon_pack"/>
+    <scale factor="0.70"/>
+
+    <!-- Samsung / Google / popular apps: temporary V2 mappings use the pack drawable.
+         Dedicated glass artwork can replace these drawable names in the next visual pass. -->
+    <item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="icon_pack"/>
+    <item component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}" drawable="icon_pack"/>
+    <item component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.HomeActivity}" drawable="icon_pack"/>
+    <item component="ComponentInfo{com.kakao.talk/com.kakao.talk.activity.SplashActivity}" drawable="icon_pack"/>
+    <item component="ComponentInfo{com.nhn.android.search/com.nhn.android.search.ui.pages.SearchHomePage}" drawable="icon_pack"/>
+    <item component="ComponentInfo{com.spotify.music/com.spotify.music.MainActivity}" drawable="icon_pack"/>
+    <item component="ComponentInfo{com.instagram.android/com.instagram.mainactivity.InstagramMainActivity}" drawable="icon_pack"/>
+    <item component="ComponentInfo{com.openai.chatgpt/com.openai.chatgpt.MainActivity}" drawable="icon_pack"/>
+</resources>
