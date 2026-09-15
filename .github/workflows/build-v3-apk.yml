@@ -1,4 +1,4 @@
-name: Build V4 Android APK
+name: Build V5 Android APK
 on:
   push:
     branches: [ "main" ]
@@ -20,9 +20,10 @@ jobs:
       - name: Collect APK
         run: |
           mkdir -p dist
-          cp app/build/outputs/apk/debug/app-debug.apk dist/Fold8-iOS27-LiquidGlass-V4.apk
+          cp app/build/outputs/apk/debug/app-debug.apk dist/Fold8-iOS27-LiquidGlass-V5.apk
       - uses: actions/upload-artifact@v4
         with:
-          name: Fold8-iOS27-LiquidGlass-V4
-          path: dist/Fold8-iOS27-LiquidGlass-V4.apk
+          name: Fold8-iOS27-LiquidGlass-V5
+          path: dist/Fold8-iOS27-LiquidGlass-V5.apk
           if-no-files-found: error
+          retention-days: 30
